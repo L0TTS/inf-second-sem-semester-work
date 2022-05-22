@@ -15,7 +15,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Builder
 @Entity
-@Table(name = "secret")
+@Table(name = "secrets")
 public class Secret {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -23,7 +23,8 @@ import java.util.UUID;
 @Slf4j
 public class SignUpServiceImpl implements SignUpService {
 
-	private final static String DEFAULT_AVATAR_URL = "https://res.cloudinary.com/denzel666/image/upload/v1652736151/gosling-reunion_tweqmq-Circle_hfojzh.jpg";
+	private final static String DEFAULT_AVATAR_URL = "https://res.cloudinary.com/denzel666/image/upload/v1653212124" +
+			"/Kgugv7WCe1qWZndGoocCjpXhuzk7i6EcZfI6NW0E2UX56hhtO9M3ZpQQNZWcFb9lH_2864glgctj34fGeDrPq15L_fruupf.jpg";
 
 	private final UserRepository userRepository;
 

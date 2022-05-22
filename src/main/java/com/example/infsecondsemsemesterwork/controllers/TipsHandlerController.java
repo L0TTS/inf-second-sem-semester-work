@@ -16,7 +16,7 @@ public class TipsHandlerController {
 
 	@GetMapping
 	@ResponseStatus(HttpStatus.OK)
-	public List<TipDto> getAllsecrets() {
+	public List<TipDto> getAlltips() {
 		return tipService.getAllTips();
 	}
 
